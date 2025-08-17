@@ -3,20 +3,27 @@
   background: rgba(255, 94, 120, 0.9);
   padding: 10px;
   text-align: center;
-  position:absolute;
+  position: absolute;
+  width: 100%; /* poore width me spread hoga */
 }
+
 ul {
-  text-decoration:none;
+  list-style: none; /* bullet hatane ke liye */
   margin: 0;
   padding: 0;
 }
-li a{
-  display: block;
-  width:60px;
-  padding:5px;
-  margin:2px;
-  color:white;
-  background-color:red;
+
+ul li {
+  display: inline-block; /* ek line me lane ke liye */
+  margin: 0 10px; /* thoda gap */
+}
+
+ul li a {
+  text-decoration: none;
+  color: white;
+  background-color: red;
+  padding: 8px 15px;
+  border-radius: 5px;
 }
 body {
   margin: 0;
